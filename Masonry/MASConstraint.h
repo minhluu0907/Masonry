@@ -239,7 +239,7 @@
 #define mas_offset(...)                  valueOffset(MASBoxValue((__VA_ARGS__)))
 
 
-#ifdef MAS_SHORTHAND_GLOBALS
+// #ifdef MAS_SHORTHAND_GLOBALS
 
 #define equalTo(...)                     mas_equalTo(__VA_ARGS__)
 #define greaterThanOrEqualTo(...)        mas_greaterThanOrEqualTo(__VA_ARGS__)
@@ -247,7 +247,7 @@
 
 #define offset(...)                      mas_offset(__VA_ARGS__)
 
-#endif
+// #endif
 
 
 @interface MASConstraint (AutoboxingSupport)
